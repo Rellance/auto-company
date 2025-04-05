@@ -9,12 +9,12 @@
 <div class="flex w-full flex-col items-center justify-start">
 	<div class="relative flex h-full w-full flex-col items-center">
 		<img
-			class="hidden h-full w-full object-cover brightness-80 md:block"
+			class="absolute hidden h-full w-full object-cover brightness-80 md:block"
 			src="/assets/auto_home.png"
 			alt="auto_home"
 		/>
 		<img
-			class="block h-full w-full object-cover md:hidden"
+			class="absolute block h-full w-full object-cover md:hidden"
 			src="/assets/auto_home_mob.png"
 			alt="auto_home"
 		/>
