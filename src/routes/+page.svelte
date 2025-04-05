@@ -46,7 +46,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="flex h-full w-full max-w-[1280px] flex-col gap-4 py-5">
+	<div class="flex h-full w-full max-w-[1280px] flex-col items-center gap-4 py-5">
 		<h2
 			class="flex flex-col items-center py-3.5 text-center text-2xl after:h-[1px] after:w-[170px] after:bg-gray-400 after:content-['']"
 		>
@@ -142,19 +142,23 @@
 	</div>
 	<div class="flex w-full justify-center bg-[#232323] py-5">
 		<div class="grid w-full max-w-[1080px] grid-cols-1 gap-2 md:grid-cols-3">
-			<div class="flex flex-col items-center border-b border-white/50 md:border-r md:border-b-0 gap-2">
+			<div
+				class="flex flex-col items-center gap-2 border-b border-white/50 md:border-r md:border-b-0"
+			>
 				<h2 class="text-5xl font-bold text-red-600">100+</h2>
-				<p class="text-white text-xl">авто на майданчику</p>
+				<p class="text-xl text-white">авто на майданчику</p>
 			</div>
-			<div class="flex flex-col items-center border-b border-white/50 md:border-r md:border-b-0 gap-2">
+			<div
+				class="flex flex-col items-center gap-2 border-b border-white/50 md:border-r md:border-b-0"
+			>
 				<h2 class="text-5xl font-bold text-red-600">2000+</h2>
-				<p class="text-white text-xl">щасливих клієнтів</p>
+				<p class="text-xl text-white">щасливих клієнтів</p>
 			</div>
-			<div class="flex flex-col items-center border-white/50 gap-2">
+			<div class="flex flex-col items-center gap-2 border-white/50">
 				<h2 class="text-5xl font-bold text-red-600">10+</h2>
-				<p class="text-white text-xl">років роботи компанії</p>
+				<p class="text-xl text-white">років роботи компанії</p>
 			</div>
 		</div>
 	</div>
-	<Description/>
+	<Description />
 </div>
