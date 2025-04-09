@@ -19,7 +19,6 @@
 		</a>
 		<div class="flex gap-4 text-white">
 			<Instagram />
-			<Youtube />
 			<Facebook />
 			<MessageCircle />
 			<Send />
