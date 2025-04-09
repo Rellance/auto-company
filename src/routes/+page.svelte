@@ -18,9 +18,9 @@
 			src="/assets/auto_home_mob.png"
 			alt="auto_home"
 		/>
-		<div class="absolute mt-10 flex h-full w-full max-w-[1280px] flex-col items-start gap-4 p-5">
+		<div class="absolute mt-10 flex h-full w-full max-w-[1280px] flex-col items-start gap-6 p-5">
 			<div class="flex w-full flex-col-reverse items-start justify-between md:flex-row">
-				<h2 class="color-white text-4xl font-bold text-white">
+				<h2 class="text-4xl font-extrabold leading-snug text-white md:text-5xl">
 					Авто з <span class="text-[var(--primary-color)]">Європи</span>
 					<br />
 					з перевіреним пробігом
@@ -29,10 +29,10 @@
 				</h2>
 				<a
 					href="#reviews"
-					class="ml-auto flex items-center gap-4 rounded-2xl bg-white/60 px-4 py-2"
+					class="ml-auto flex items-center gap-4 rounded-2xl bg-white/70 px-6 py-3 shadow-lg hover:bg-white/80 transition-all"
 				>
-					<b class="text-2xl text-[var(--primary-color)]">2000+</b>
-					<span class="text-gray-700">
+					<b class="text-3xl text-[var(--primary-color)]">2000+</b>
+					<span class="text-lg text-gray-800 leading-tight">
 						задоволених
 						<br />
 						клієнтів
