@@ -1,5 +1,5 @@
 <script>
-	import { Facebook, Instagram, Mail, MessageCircle, Phone, Send, Youtube } from 'lucide-svelte';
+	import { Facebook, Instagram, Mail, MessageCircle, Phone, Send } from 'lucide-svelte';
 </script>
 
 <footer class="flex w-full mt-auto justify-center bg-[#232323]">
