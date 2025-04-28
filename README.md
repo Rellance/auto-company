@@ -1,38 +1,73 @@
-# sv
+# Auto Company Landing Page (SvelteKit)
+A modern, fully responsive landing page for a fictional auto company, implemented as a SvelteKit project with TypeScript, Vite and Tailwind CSS.
+This template demonstrates proficiency with a modern frontend stack, including Supabase integration and SVG icons via Lucide.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# Live Demo
+▶️ https://auto-company-i3tx.vercel.app/
 
-## Creating a project
+# Features
+SvelteKit: server- and client-side rendering, routing and project bundling
 
-If you're seeing this, you've probably already done this step. Congrats!
+Tailwind CSS: utility-first styling via Vite plugin
 
-```bash
-# create a new project in the current directory
-npx sv create
+TypeScript: strict typing for components and scripts
 
-# create a new project in my-app
-npx sv create my-app
-```
+Vite: fast dev server with HMR
 
-## Developing
+Supabase JS: client integration for auth and database
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Lucide-Svelte: lightweight SVG icon library
 
-```bash
+Responsive design: optimized for mobile, tablet and desktop
+
+Static assets: organized under static/ (images, fonts, etc.)
+
+# Technologies Used
+Framework: SvelteKit
+
+Language: TypeScript
+
+Bundler: Vite
+
+Styling: Tailwind CSS
+
+Icons: Lucide-Svelte
+
+BaaS: Supabase JS
+
+# How to Use
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/Rellance/auto-company.git
+Install dependencies:
+
+bash
+Copy
+Edit
+cd auto-company
+npm install
+Run the dev server:
+
+bash
+Copy
+Edit
 npm run dev
+Open your browser at http://localhost:5173.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+# Deployment
+This site is deployed on Vercel and automatically updates on push to the main branch.
+Live demo: https://auto-company-i3tx.vercel.app/
 
-## Building
+# Project Purpose
+This project was built to showcase skills in:
 
-To create a production version of your app:
+Structuring a SvelteKit app with SSR and routing
 
-```bash
-npm run build
-```
+Rapid prototyping with Tailwind CSS
 
-You can preview the production build with `npm run preview`.
+Integrating a BaaS (Supabase) for auth and data
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Enforcing type safety via TypeScript
