@@ -38,24 +38,15 @@ BaaS: Supabase JS
 # How to Use
 Clone the repo:
 
-  ```bash
-Copy
-Edit
-git clone https://github.com/Rellance/auto-company.git
-Install dependencies:  ```
+```git clone https://github.com/Rellance/auto-company.git```
+Install dependencies:  
 
-  ```bash
-Copy
-Edit
-cd auto-company
-npm install
+```cd auto-company```
+```npm install```
 Run the dev server:
 
-  ```bash
-Copy
-Edit
-npm run dev
-Open your browser at http://localhost:5173.  ```
+```npm run dev```
+Open your browser at http://localhost:5173.  
 
 # Deployment
 This site is deployed on Vercel and automatically updates on push to the main branch.
