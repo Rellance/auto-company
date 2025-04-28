@@ -39,13 +39,16 @@ BaaS: Supabase JS
 Clone the repo:
 
 ```git clone https://github.com/Rellance/auto-company.git```
+
 Install dependencies:  
 
 ```cd auto-company```
 ```npm install```
+
 Run the dev server:
 
 ```npm run dev```
+
 Open your browser at http://localhost:5173.  
 
 # Deployment
